@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-style: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 24px;
+}
+
+div {
+  margin: 0px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.imageOne {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  background-image: url('images.jpg');
+  background-size: cover;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 500px;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  border: red 8px solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.flexer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: 500px;
+  text-align: center;
+  /*
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+*/
+}
+
+.imageBack {
+  width: 100px;
+  top: -50px;
+  height: 100px;
+  position: absolute;
+  border: red 2px solid;
+  border-radius: 50%;
+}
+
+.createAccount, .forgotPass {
+  box-sizing: border-box;
+  text-decoration: none !important;
+  color: white !important;
+  position: relative;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 20px;
+  top: 20px;
+  right: 20%;
+  top: 40px;
+  overflow: hidden;
+}
+
+::placeholder {
+  color: grey;
+}
+
+input {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
+  height: 40px;
+  margin: 0px !important;
+  background-color: white;
+  color: grey;
+  border: 3px transparent solid;
+  border-radius: 75px;
+  /*padding-left: 14px;*/
+}
+
+.loginBox {}
+
+.inputs {
+  display: block;
+  position: relative;
+}
+
+.login {
+  display: block;
+  color: white;
+  background-color: #20B2AA;
+  position: relative;
+  margin: 0px;
+  width: 300px;
+  top: 20px;
+  height: 50px;
+  border: 4px transparent solid;
+  border-radius: 100px;
+}
+
+.account {
+  font-style: bold;
+  color: black;
+  text-decoration: underline;
+  margin: 0px;
+}
+
+.audio {}
+
+.passUn, .userUn {
+  text-decoration: underline;
+  font-size: 18px;
+  color: white;
+  text-decoration-color: white;
+}
